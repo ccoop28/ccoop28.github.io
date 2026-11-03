@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://ccoop28.github.io/sitemap.xml
