@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en-AU">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="robots" content="noindex,nofollow">
+<meta name="referrer" content="no-referrer">
+<meta name="theme-color" content="#0f172a">
+<title>ChaseDigital HQ</title>
+<link rel="icon" href="../favicon.svg">
+<style>
+:root{--ink:#0f172a;--muted:#475569;--line:#e2e8f0;--bg:#f8fafc;--card:#fff;--brand:#4f46e5;--brand-soft:#eef2ff;--accent:#14b8a6;--warn:#fef3c7;--warn-ink:#78350f;--ok:#dcfce7;--ok-ink:#166534;--r:16px;
+--sans:"Inter",ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;--display:"Space Grotesk","Inter",ui-sans-serif,system-ui,sans-serif}
+*,*::before,*::after{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;font-family:var(--sans);color:var(--ink);background:var(--bg);line-height:1.5;font-size:16px;-webkit-font-smoothing:antialiased}
+h1,h2{font-family:var(--display);letter-spacing:-.02em;line-height:1.15;margin:0}
+h2{font-size:1.05rem;margin-bottom:12px;display:flex;align-items:center;gap:8px}
+h2 .n{font-family:var(--sans);font-size:.75rem;font-weight:700;background:var(--brand-soft);color:var(--brand);border-radius:999px;padding:2px 9px}
+header{background:var(--ink);color:#fff;padding:18px 0 20px;padding-top:max(18px,env(safe-area-inset-top))}
+.wrap{width:min(1120px,100% - 28px);margin-inline:auto}
+.top{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.logo{display:flex;align-items:center;gap:10px;font-family:var(--display);font-weight:700;font-size:1.2rem}
+.logo b{color:#a5b4fc}
+.logo svg{width:30px;height:30px}
+.upd{font-size:.82rem;color:#cbd5e1}
+.private{display:inline-block;margin-top:10px;font-size:.75rem;color:#94a3b8}
+main{padding:16px 0 40px}
+.grid{display:grid;gap:12px}
+.kpis{grid-template-columns:repeat(2,minmax(0,1fr))}
+.card{background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:16px;box-shadow:0 1px 2px rgba(15,23,42,.04);min-width:0}
+.kpi .lab{font-size:.78rem;font-weight:600;color:var(--muted);text-transform:uppercase;letter-spacing:.06em}
+.kpi .val{font-family:var(--display);font-weight:700;font-size:1.65rem;line-height:1.1;margin:6px 0 2px;word-break:break-word}
+.kpi .sub{font-size:.82rem;color:var(--muted)}
+.kpi.hl{background:var(--brand);border-color:var(--brand);color:#fff}.kpi.hl .lab,.kpi.hl .sub{color:#c7d2fe}
+section{margin-top:12px}
+.wait li{display:flex;gap:12px;align-items:flex-start;padding:12px 0;border-top:1px solid var(--line)}
+.wait li:first-child{border-top:0;padding-top:2px}
+.wait .dot{flex:none;width:22px;height:22px;border-radius:50%;background:var(--warn);color:var(--warn-ink);display:grid;place-items:center;font-size:.75rem;font-weight:700;margin-top:1px}
+.wait .for{display:block;font-size:.8rem;color:var(--muted)}
+ul.clean{list-style:none;margin:0;padding:0}
+.offer{padding:12px 0;border-top:1px solid var(--line)}
+.offer:first-child{border-top:0;padding-top:2px}
+.offer .t{font-weight:600;line-height:1.35}
+.offer .m{display:flex;flex-wrap:wrap;gap:6px 10px;align-items:center;margin-top:6px;font-size:.85rem;color:var(--muted)}
+.offer .p{font-family:var(--display);font-weight:700;color:var(--ink)}
+.chip{display:inline-block;font-size:.72rem;font-weight:700;padding:3px 8px;border-radius:999px;background:var(--brand-soft);color:var(--brand);white-space:nowrap}
+.chip.w{background:var(--warn);color:var(--warn-ink)}
+.chip.s{background:#f1f5f9;color:var(--muted)}
+.chip.ok{background:var(--ok);color:var(--ok-ink)}
+.stage{display:grid;grid-template-columns:1fr auto;gap:2px 10px;padding:9px 0;border-top:1px solid var(--line);font-size:.92rem}
+.stage:first-child{border-top:0;padding-top:0}
+.stage .v{grid-column:1/-1;font-size:.78rem;color:var(--muted)}
+.bar{grid-column:1/-1;height:6px;border-radius:6px;background:#f1f5f9;overflow:hidden}
+.bar i{display:block;height:100%;background:var(--brand);border-radius:6px}
+.stage.zero{color:var(--muted)}
+table{width:100%;border-collapse:collapse;font-size:.9rem}
+th,td{text-align:right;padding:8px 6px;border-top:1px solid var(--line)}
+th:first-child,td:first-child{text-align:left;padding-left:0}
+th:last-child,td:last-child{padding-right:0}
+th{font-size:.72rem;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);border-top:0}
+.team li{display:flex;justify-content:space-between;gap:10px;padding:10px 0;border-top:1px solid var(--line);font-size:.92rem}
+.team li:first-child{border-top:0;padding-top:0}
+.team .a{font-weight:600}
+.team .w{text-align:right;color:var(--muted);font-size:.82rem}
+.team .w b{display:block;color:var(--ink);font-weight:500;font-size:.85rem}
+details summary{cursor:pointer;font-weight:600;color:var(--brand);list-style:none;padding:4px 0}
+details summary::-webkit-details-marker{display:none}
+details summary::after{content:" ▾"}
+details[open] summary::after{content:" ▴"}
+.notes{font-size:.8rem;color:var(--muted);margin:16px 0 0;padding-left:1.1em}
+.empty{color:var(--muted);font-size:.9rem;margin:0}
+.err{background:var(--warn);color:var(--warn-ink);padding:14px;border-radius:12px}
+@media (min-width:720px){
+ .kpis{grid-template-columns:repeat(4,minmax(0,1fr))}
+ .two{grid-template-columns:repeat(2,minmax(0,1fr))}
+ .kpi .val{font-size:1.9rem}
+ main{padding-top:22px}
+ .card{padding:20px}
+}
+@media (min-width:1024px){.three{grid-template-columns:1.25fr 1fr}}
+</style>
+</head>
+<body>
+<header><div class="wrap">
+ <div class="top">
+  <div class="logo"><svg viewBox="0 0 34 34" aria-hidden="true"><rect width="34" height="34" rx="9" fill="#4f46e5"/><path d="M22.5 11.5a7.5 7.5 0 1 0 0 11" fill="none" stroke="#fff" stroke-width="3.2" stroke-linecap="round"/><circle cx="24" cy="17" r="2.4" fill="#14b8a6"/></svg><span>Chase<b>Digital</b> HQ</span></div>
+  <div class="upd" id="upd">Loading…</div>
+ </div>
+ <span class="private">Private team dashboard · not listed on the public site</span>
+</div></header>
+<main class="wrap" id="app" aria-live="polite"></main>
+<script>
+const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const chip = st => {
+  const s = (st||'').toLowerCase();
+  const cls = s.includes('waiting on cc28') ? 'w' : s.includes('draft') ? 's' : 'chip';
+  return `<span class="chip ${cls==='chip'?'':cls}">${esc(st)}</span>`;
+};
+const offerList = list => list.length ? `<ul class="clean">${list.map(o => `<li class="offer"><div class="t">${esc(o.title)}</div>
+  <div class="m"><span class="p">${esc(o.price)}</span><span>${esc(o.platform)}</span>${chip(o.status)}</div></li>`).join('')}</ul>` : '<p class="empty">None yet.</p>';
+function render(d){
+  document.getElementById('upd').textContent = 'Updated ' + d.updated;
+  const mx = Math.max(1, ...d.pipeline_by_stage.map(s => s.count));
+  const oo = d.offers_out;
+  document.getElementById('app').innerHTML = `
+  <div class="grid kpis">
+    <div class="card kpi"><div class="lab">Income received</div><div class="val">${esc(d.income_received.display)}</div><div class="sub">${esc(d.income_received.note || 'paid to date')}</div></div>
+    <div class="card kpi"><div class="lab">Invoiced</div><div class="val">${esc(d.invoiced.display)}</div><div class="sub">${esc(d.invoiced.note || 'issued to date')}</div></div>
+    <div class="card kpi hl"><div class="lab">Offers out</div><div class="val">${oo.count}</div><div class="sub">${esc(oo.total.join(' + '))} · ${oo.priced} priced</div></div>
+    <div class="card kpi"><div class="lab">Replies</div><div class="val">${d.replies}</div><div class="sub">from ${d.leads_found} leads found</div></div>
+  </div>
+  <section class="card"><h2>Waiting on you <span class="n">${d.waiting_on_cc28.length}</span></h2>
+   ${d.waiting_on_cc28.length ? `<ul class="clean wait">${d.waiting_on_cc28.map((w,i) => `<li><span class="dot">${i+1}</span><span>${esc(w.what)}<span class="for">for ${esc(w.for)}</span></span></li>`).join('')}</ul>` : '<p class="empty">Nothing waiting on you.</p>'}
+  </section>
+  <div class="grid three" style="margin-top:12px">
+   <section class="card" style="margin:0"><h2>Open offers <span class="n">${d.open_offers.length}</span></h2>${offerList(d.open_offers)}
+    <details style="margin-top:10px"><summary>Drafted, not sent (${d.drafted_offers.length})</summary>${offerList(d.drafted_offers)}</details>
+   </section>
+   <div class="grid" style="align-content:start">
+    <section class="card" style="margin:0"><h2>Pipeline by stage</h2>
+     ${d.pipeline_by_stage.map(s => `<div class="stage ${s.count?'':'zero'}"><span>${esc(s.stage)}</span><b>${s.count}</b>
+       <div class="bar"><i style="width:${(s.count/mx*100).toFixed(1)}%"></i></div>${s.count && s.value[0]!=='none priced' ? `<span class="v">${esc(s.value.join(' + '))}</span>` : ''}</div>`).join('')}
+    </section>
+    <section class="card" style="margin:0"><h2>Pipeline by source</h2>
+     <table><thead><tr><th>Platform</th><th>Found</th><th>Active</th><th>Sent</th><th>Won</th></tr></thead>
+     <tbody>${d.pipeline_by_source.map(s => `<tr><td>${esc(s.platform)}</td><td>${s.found}</td><td>${s.active}</td><td>${s.sent}</td><td>${s.won}</td></tr>`).join('')}</tbody></table>
+    </section>
+   </div>
+  </div>
+  <div class="grid two" style="margin-top:12px">
+   <section class="card" style="margin:0"><h2>Team status</h2>
+    <ul class="clean team">${d.team.map(t => `<li><span class="a">${esc(t.agent)}</span><span class="w"><b>${esc(t.last_activity)}</b>${esc(t.last_action || '')}</span></li>`).join('')}</ul>
+   </section>
+   <section class="card" style="margin:0"><h2>Systems</h2>
+    <ul class="clean team">${d.systems.map(s => `<li><span class="a">${esc(s.name)}</span><span class="w"><span class="chip ${/pending/i.test(s.status)?'w':'ok'}">${esc(s.status)}</span>${s.note?`<span style="display:block;margin-top:4px">${esc(s.note)}</span>`:''}</span></li>`).join('')}</ul>
+   </section>
+  </div>
+  <ul class="notes">${d.notes.map(n => `<li>${esc(n)}</li>`).join('')}</ul>`;
+}
+fetch('data.json?t=' + Date.now(), {cache: 'no-store'}).then(r => { if (!r.ok) throw new Error(r.status); return r.json(); })
+  .then(render).catch(e => { document.getElementById('upd').textContent = ''; document.getElementById('app').innerHTML = `<p class="err">Could not load data.json (${esc(e.message)}).</p>`; });
+</script>
+</body>
+</html>

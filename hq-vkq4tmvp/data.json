@@ -1,0 +1,303 @@
+{
+ "updated": "Wed 04 Nov 2026, 01:57 Perth (UTC+8)",
+ "income_received": {
+  "display": "A$0",
+  "note": "none recorded yet"
+ },
+ "invoiced": {
+  "display": "A$0",
+  "note": "none recorded yet"
+ },
+ "offers_out": {
+  "count": 7,
+  "priced": 5,
+  "total": [
+   "AUD 3,800"
+  ]
+ },
+ "replies": 0,
+ "leads_found": 43,
+ "pipeline_by_stage": [
+  {
+   "stage": "Dropped",
+   "count": 13,
+   "value": [
+    "not counted"
+   ]
+  },
+  {
+   "stage": "Qualified, no offer yet",
+   "count": 9,
+   "value": [
+    "none priced"
+   ]
+  },
+  {
+   "stage": "Offer drafted",
+   "count": 12,
+   "value": [
+    "GBP 2,950",
+    "USD 12,950"
+   ]
+  },
+  {
+   "stage": "Ready to send",
+   "count": 2,
+   "value": [
+    "USD 6,400"
+   ]
+  },
+  {
+   "stage": "Offer sent",
+   "count": 7,
+   "value": [
+    "AUD 3,800"
+   ]
+  },
+  {
+   "stage": "Replied",
+   "count": 0,
+   "value": [
+    "none priced"
+   ]
+  },
+  {
+   "stage": "Won",
+   "count": 0,
+   "value": [
+    "none priced"
+   ]
+  },
+  {
+   "stage": "Delivered",
+   "count": 0,
+   "value": [
+    "none priced"
+   ]
+  },
+  {
+   "stage": "Paid",
+   "count": 0,
+   "value": [
+    "none priced"
+   ]
+  }
+ ],
+ "pipeline_by_source": [
+  {
+   "platform": "Airtasker",
+   "found": 17,
+   "active": 11,
+   "sent": 5,
+   "won": 0
+  },
+  {
+   "platform": "X",
+   "found": 15,
+   "active": 9,
+   "sent": 0,
+   "won": 0
+  },
+  {
+   "platform": "Upwork",
+   "found": 6,
+   "active": 6,
+   "sent": 0,
+   "won": 0
+  },
+  {
+   "platform": "LinkedIn",
+   "found": 5,
+   "active": 4,
+   "sent": 2,
+   "won": 0
+  }
+ ],
+ "open_offers": [
+  {
+   "title": "Web designer for a client project, budget $6k, 3 weeks",
+   "platform": "X",
+   "price": "USD 5,800",
+   "status": "Approved, waiting on cc28 to send"
+  },
+  {
+   "title": "New portfolio website",
+   "platform": "X",
+   "price": "USD 600",
+   "status": "Ready, waiting on cc28 to post"
+  },
+  {
+   "title": "Website built from lovable creation",
+   "platform": "Airtasker",
+   "price": "AUD 1,900",
+   "status": "Offer sent, awaiting reply"
+  },
+  {
+   "title": "Shopify developer, ongoing agency work",
+   "platform": "LinkedIn",
+   "price": "Price in DM / to quote",
+   "status": "Offer sent, awaiting reply"
+  },
+  {
+   "title": "Shopify app developer for equestrian marketplace app (contract)",
+   "platform": "LinkedIn",
+   "price": "Price in DM / to quote",
+   "status": "Offer sent, awaiting reply"
+  },
+  {
+   "title": "Looking for electrical and air conditioning website built. Perth based",
+   "platform": "Airtasker",
+   "price": "AUD 1,500",
+   "status": "Offer sent, awaiting reply"
+  },
+  {
+   "title": "Webflow Expert Needed - Small Website Update",
+   "platform": "Airtasker",
+   "price": "AUD 100",
+   "status": "Offer sent, awaiting reply"
+  },
+  {
+   "title": "Logo amendment",
+   "platform": "Airtasker",
+   "price": "AUD 200",
+   "status": "Offer sent, awaiting reply"
+  },
+  {
+   "title": "Easy SEO Inspiration Blog Article",
+   "platform": "Airtasker",
+   "price": "AUD 100",
+   "status": "Offer sent, awaiting reply"
+  }
+ ],
+ "drafted_offers": [
+  {
+   "title": "Premium SaaS marketing site redesign in Webflow/Framer",
+   "platform": "Upwork",
+   "price": "USD 4,200",
+   "status": "Draft only"
+  },
+  {
+   "title": "Shopify website build with CRO",
+   "platform": "Upwork",
+   "price": "GBP 2,950",
+   "status": "Draft only"
+  },
+  {
+   "title": "Complete website redesign (HTML/CSS/JS)",
+   "platform": "Upwork",
+   "price": "USD 2,400",
+   "status": "Draft only"
+  },
+  {
+   "title": "Visual redesign of 14-page static HTML/CSS SaaS site",
+   "platform": "Upwork",
+   "price": "USD 1,400",
+   "status": "Draft only"
+  },
+  {
+   "title": "Needs a website built",
+   "platform": "X",
+   "price": "USD 1,200",
+   "status": "Draft only"
+  },
+  {
+   "title": "Web designer for a PC tweaks business/store",
+   "platform": "X",
+   "price": "USD 900",
+   "status": "Draft only"
+  },
+  {
+   "title": "Recommend a website designer",
+   "platform": "X",
+   "price": "USD 600",
+   "status": "Draft only"
+  },
+  {
+   "title": "Shopify jewelry store build",
+   "platform": "Upwork",
+   "price": "USD 500",
+   "status": "Draft only"
+  },
+  {
+   "title": "Framer ad landing pages for B2B SaaS",
+   "platform": "Upwork",
+   "price": "USD 500",
+   "status": "Draft only"
+  },
+  {
+   "title": "Reasonably priced web designer for a new small business",
+   "platform": "X",
+   "price": "USD 450",
+   "status": "Draft only"
+  },
+  {
+   "title": "Seeking a WordPress developer",
+   "platform": "X",
+   "price": "USD 450",
+   "status": "Draft only"
+  },
+  {
+   "title": "Help setting up a Shopify store (+ Instagram)",
+   "platform": "X",
+   "price": "USD 350",
+   "status": "Draft only"
+  }
+ ],
+ "team": [
+  {
+   "agent": "Freelance Revenue Agent",
+   "last_activity": "Wed 04 Nov, 01:13 Perth",
+   "last_action": "scoring update"
+  },
+  {
+   "agent": "Lead Hunter",
+   "last_activity": "Wed 04 Nov, 01:53 Perth",
+   "last_action": "email drafted for user"
+  },
+  {
+   "agent": "Delivery Studio",
+   "last_activity": "Wed 04 Nov, 01:57 Perth",
+   "last_action": "hq dashboard built"
+  },
+  {
+   "agent": "Billing & Reviews",
+   "last_activity": "Wed 04 Nov, 01:51 Perth",
+   "last_action": "invoice template update"
+  }
+ ],
+ "systems": [
+  {
+   "name": "Stripe",
+   "status": "Live, connection pending",
+   "note": "Live account active; agent connection still sees sandbox only, so Stripe figures are not counted as income"
+  },
+  {
+   "name": "Business site",
+   "status": "Live",
+   "note": "ccoop28.github.io"
+  }
+ ],
+ "waiting_on_cc28": [
+  {
+   "what": "Send approved offer draft from your email (USD 5,800)",
+   "for": "Lead Hunter"
+  },
+  {
+   "what": "Post the ready X reply offer (USD 600 fixed) from the link in your Lead Hunter chat",
+   "for": "Lead Hunter"
+  },
+  {
+   "what": "Approve live Stripe connection (link in your Freelance Revenue Agent chat)",
+   "for": "Freelance Revenue Agent"
+  },
+  {
+   "what": "Send your ABN and GST status (needed on invoices)",
+   "for": "Billing & Reviews"
+  }
+ ],
+ "notes": [
+  "Amounts shown in the currency quoted (no conversion).",
+  "Airtasker keeps a service fee, so the amount received is lower than the offer price.",
+  "Stripe figures are not counted until the live connection is approved (connector sees sandbox only)."
+ ]
+}
