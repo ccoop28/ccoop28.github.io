@@ -1,5 +1,5 @@
 {
- "updated": "Wed 04 Nov 2026, 05:33 Perth (UTC+8)",
+ "updated": "Wed 04 Nov 2026, 06:11 Perth (UTC+8)",
  "income_received": {
   "display": "A$0",
   "note": "none recorded yet"
@@ -9,18 +9,18 @@
   "note": "none recorded yet"
  },
  "offers_out": {
-  "count": 13,
-  "priced": 11,
+  "count": 15,
+  "priced": 13,
   "total": [
-   "AUD 7,290"
+   "AUD 8,640"
   ]
  },
  "replies": 0,
- "leads_found": 51,
+ "leads_found": 56,
  "pipeline_by_stage": [
   {
    "stage": "Dropped",
-   "count": 16,
+   "count": 19,
    "value": [
     "not counted"
    ]
@@ -36,9 +36,9 @@
    "stage": "Offer drafted",
    "count": 20,
    "value": [
-    "AUD 2,950",
+    "AUD 2,600",
     "GBP 2,950",
-    "USD 15,750"
+    "USD 19,100"
    ]
   },
   {
@@ -50,9 +50,9 @@
   },
   {
    "stage": "Offer sent",
-   "count": 13,
+   "count": 15,
    "value": [
-    "AUD 7,290"
+    "AUD 8,640"
    ]
   },
   {
@@ -88,8 +88,8 @@
   {
    "platform": "Airtasker",
    "found": 23,
-   "active": 16,
-   "sent": 11,
+   "active": 13,
+   "sent": 13,
    "won": 0
   },
   {
@@ -100,17 +100,17 @@
    "won": 0
   },
   {
+   "platform": "Upwork",
+   "found": 11,
+   "active": 11,
+   "sent": 0,
+   "won": 0
+  },
+  {
    "platform": "LinkedIn",
    "found": 7,
    "active": 5,
    "sent": 2,
-   "won": 0
-  },
-  {
-   "platform": "Upwork",
-   "found": 6,
-   "active": 6,
-   "sent": 0,
    "won": 0
   }
  ],
@@ -134,7 +134,7 @@
    "status": "Offer sent, awaiting reply"
   },
   {
-   "title": "Small business website development",
+   "title": "Airtasker job (title hidden)",
    "platform": "Airtasker",
    "price": "AUD 500",
    "status": "Offer sent, awaiting reply"
@@ -182,7 +182,19 @@
    "status": "Offer sent, awaiting reply"
   },
   {
-   "title": "Webflow Expert Needed - Small Website Update",
+   "title": "Help setting up a  website/ logo on the Gold Coast if possible",
+   "platform": "Airtasker",
+   "price": "AUD 750",
+   "status": "Offer sent, awaiting reply"
+  },
+  {
+   "title": "Build website",
+   "platform": "Airtasker",
+   "price": "AUD 600",
+   "status": "Offer sent, awaiting reply"
+  },
+  {
+   "title": "Airtasker job (title hidden)",
    "platform": "Airtasker",
    "price": "AUD 100",
    "status": "Offer sent, awaiting reply"
@@ -202,7 +214,7 @@
  ],
  "drafted_offers": [
   {
-   "title": "Premium SaaS marketing site redesign in Webflow/Framer",
+   "title": "Upwork job (title hidden)",
    "platform": "Upwork",
    "price": "USD 4,200",
    "status": "Draft only"
@@ -217,6 +229,18 @@
    "title": "Complete website redesign (HTML/CSS/JS)",
    "platform": "Upwork",
    "price": "USD 2,400",
+   "status": "Draft only"
+  },
+  {
+   "title": "Shopify store design & setup for premium DTC lifestyle brand (launch + waitlist pages)",
+   "platform": "Upwork",
+   "price": "AUD 1,500",
+   "status": "Draft only"
+  },
+  {
+   "title": "Upwork job (title hidden)",
+   "platform": "Upwork",
+   "price": "USD 1,500",
    "status": "Draft only"
   },
   {
@@ -238,9 +262,27 @@
    "status": "Draft only"
   },
   {
+   "title": "Wix website refresh for caretovoice.com (4 weeks)",
+   "platform": "Upwork",
+   "price": "AUD 1,100",
+   "status": "Draft only"
+  },
+  {
+   "title": "Upwork job (title hidden)",
+   "platform": "Upwork",
+   "price": "USD 1,000",
+   "status": "Draft only"
+  },
+  {
    "title": "Web designer for a PC tweaks business/store",
    "platform": "X",
    "price": "USD 900",
+   "status": "Draft only"
+  },
+  {
+   "title": "No-code MVP for a talent marketplace (Framer/Webflow + Airtable + Stripe + Zapier)",
+   "platform": "Upwork",
+   "price": "USD 850",
    "status": "Draft only"
   },
   {
@@ -250,27 +292,9 @@
    "status": "Draft only"
   },
   {
-   "title": "Help setting up a  website/ logo on the Gold Coast if possible",
-   "platform": "Airtasker",
-   "price": "AUD 750",
-   "status": "Draft only"
-  },
-  {
    "title": "Recommend a website designer",
    "platform": "X",
    "price": "USD 600",
-   "status": "Draft only"
-  },
-  {
-   "title": "Build website",
-   "platform": "Airtasker",
-   "price": "AUD 600",
-   "status": "Draft only"
-  },
-  {
-   "title": "Build a website with shopify",
-   "platform": "Airtasker",
-   "price": "AUD 600",
    "status": "Draft only"
   },
   {
@@ -286,25 +310,13 @@
    "status": "Draft only"
   },
   {
-   "title": "Website development",
-   "platform": "Airtasker",
-   "price": "AUD 500",
-   "status": "Draft only"
-  },
-  {
-   "title": "Creating a new website",
-   "platform": "Airtasker",
-   "price": "AUD 500",
-   "status": "Draft only"
-  },
-  {
    "title": "LinkedIn job (title hidden)",
    "platform": "LinkedIn",
    "price": "USD 500",
    "status": "Draft only"
   },
   {
-   "title": "Reasonably priced web designer for a new small business",
+   "title": "X job (title hidden)",
    "platform": "X",
    "price": "USD 450",
    "status": "Draft only"
@@ -325,13 +337,13 @@
  "team": [
   {
    "agent": "Freelance Revenue Agent",
-   "last_activity": "Wed 04 Nov, 03:21 Perth",
+   "last_activity": "Wed 04 Nov, 06:11 Perth",
    "last_action": "lead cycle run"
   },
   {
    "agent": "Lead Hunter",
-   "last_activity": "Wed 04 Nov, 04:43 Perth",
-   "last_action": "linkedin sweep done"
+   "last_activity": "Wed 04 Nov, 05:42 Perth",
+   "last_action": "leads sourced"
   },
   {
    "agent": "Delivery Studio",
@@ -340,8 +352,8 @@
   },
   {
    "agent": "Billing & Reviews",
-   "last_activity": "Wed 04 Nov, 03:37 Perth",
-   "last_action": "invoice prepared"
+   "last_activity": "Wed 04 Nov, 05:35 Perth",
+   "last_action": "review requests prepared"
   }
  ],
  "systems": [
