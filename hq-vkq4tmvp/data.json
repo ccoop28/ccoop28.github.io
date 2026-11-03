@@ -250,8 +250,8 @@
   },
   {
    "agent": "Delivery Studio",
-   "last_activity": "Wed 04 Nov, 01:58 Perth",
-   "last_action": "hq dashboard published"
+   "last_activity": "Wed 04 Nov, 02:37 Perth",
+   "last_action": "delivery starters ready"
   },
   {
    "agent": "Billing & Reviews",
@@ -279,6 +279,10 @@
  "waiting_on_cc28": [
   {
    "what": "Send approved offer draft from your email (USD 5,800)",
+   "for": "Lead Hunter"
+  },
+  {
+   "what": "Tap Post on the 6 ready X reply offers (about USD 3,950); links are in your Lead Hunter chat",
    "for": "Lead Hunter"
   },
   {
