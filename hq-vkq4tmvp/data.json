@@ -1,5 +1,5 @@
 {
- "updated": "Wed 04 Nov 2026, 02:32 Perth (UTC+8)",
+ "updated": "Wed 04 Nov 2026, 02:37 Perth (UTC+8)",
  "income_received": {
   "display": "A$0",
   "note": "none recorded yet"
@@ -20,7 +20,7 @@
  "pipeline_by_stage": [
   {
    "stage": "Dropped",
-   "count": 13,
+   "count": 14,
    "value": [
     "not counted"
    ]
@@ -42,9 +42,9 @@
   },
   {
    "stage": "Ready to send",
-   "count": 2,
+   "count": 1,
    "value": [
-    "USD 6,400"
+    "USD 5,800"
    ]
   },
   {
@@ -94,7 +94,7 @@
   {
    "platform": "X",
    "found": 15,
-   "active": 9,
+   "active": 8,
    "sent": 0,
    "won": 0
   },
@@ -119,12 +119,6 @@
    "platform": "X",
    "price": "USD 5,800",
    "status": "Approved, waiting on cc28 to send"
-  },
-  {
-   "title": "New portfolio website",
-   "platform": "X",
-   "price": "USD 600",
-   "status": "Ready, waiting on cc28 to post"
   },
   {
    "title": "Website built from lovable creation",
@@ -251,8 +245,8 @@
   },
   {
    "agent": "Lead Hunter",
-   "last_activity": "Wed 04 Nov, 01:53 Perth",
-   "last_action": "email drafted for user"
+   "last_activity": "Wed 04 Nov, 02:36 Perth",
+   "last_action": "lead dropped"
   },
   {
    "agent": "Delivery Studio",
@@ -267,9 +261,14 @@
  ],
  "systems": [
   {
+   "name": "Payments",
+   "status": "Live",
+   "note": "PayID and bank transfer for Australian clients, PayPal for overseas (set up by Billing & Reviews 4 Nov)"
+  },
+  {
    "name": "Stripe",
-   "status": "Live, connection pending",
-   "note": "Live account active; agent connection still sees sandbox only, so Stripe figures are not counted as income"
+   "status": "Backup",
+   "note": "Live account not connected; not used for now"
   },
   {
    "name": "Business site",
@@ -281,14 +280,6 @@
   {
    "what": "Send approved offer draft from your email (USD 5,800)",
    "for": "Lead Hunter"
-  },
-  {
-   "what": "Post the ready X reply offer (USD 600 fixed) from the link in your Lead Hunter chat",
-   "for": "Lead Hunter"
-  },
-  {
-   "what": "Approve live Stripe connection (link in your Freelance Revenue Agent chat)",
-   "for": "Freelance Revenue Agent"
   },
   {
    "what": "Send your ABN and GST status (needed on invoices)",
