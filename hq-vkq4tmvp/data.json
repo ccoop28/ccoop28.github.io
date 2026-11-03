@@ -1,5 +1,5 @@
 {
- "updated": "Wed 04 Nov 2026, 04:39 Perth (UTC+8)",
+ "updated": "Wed 04 Nov 2026, 05:33 Perth (UTC+8)",
  "income_received": {
   "display": "A$0",
   "note": "none recorded yet"
@@ -16,18 +16,18 @@
   ]
  },
  "replies": 0,
- "leads_found": 49,
+ "leads_found": 51,
  "pipeline_by_stage": [
   {
    "stage": "Dropped",
-   "count": 15,
+   "count": 16,
    "value": [
     "not counted"
    ]
   },
   {
    "stage": "Qualified, no offer yet",
-   "count": 0,
+   "count": 1,
    "value": [
     "none priced"
    ]
@@ -100,17 +100,17 @@
    "won": 0
   },
   {
+   "platform": "LinkedIn",
+   "found": 7,
+   "active": 5,
+   "sent": 2,
+   "won": 0
+  },
+  {
    "platform": "Upwork",
    "found": 6,
    "active": 6,
    "sent": 0,
-   "won": 0
-  },
-  {
-   "platform": "LinkedIn",
-   "found": 5,
-   "active": 4,
-   "sent": 2,
    "won": 0
   }
  ],
@@ -298,7 +298,7 @@
    "status": "Draft only"
   },
   {
-   "title": "Webflow developer for German-market blog layouts and landing pages",
+   "title": "LinkedIn job (title hidden)",
    "platform": "LinkedIn",
    "price": "USD 500",
    "status": "Draft only"
@@ -330,12 +330,12 @@
   },
   {
    "agent": "Lead Hunter",
-   "last_activity": "Wed 04 Nov, 03:39 Perth",
-   "last_action": "offer drafted"
+   "last_activity": "Wed 04 Nov, 04:43 Perth",
+   "last_action": "linkedin sweep done"
   },
   {
    "agent": "Delivery Studio",
-   "last_activity": "Wed 04 Nov, 02:37 Perth",
+   "last_activity": "Wed 04 Nov, 04:40 Perth",
    "last_action": "delivery starters ready"
   },
   {
