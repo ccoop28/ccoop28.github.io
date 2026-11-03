@@ -1,12 +1,12 @@
 {
- "updated": "Wed 04 Nov 2026, 03:35 Perth (UTC+8)",
+ "updated": "Wed 04 Nov 2026, 04:38 Perth (UTC+8)",
  "income_received": {
   "display": "A$0",
   "note": "none recorded yet"
  },
  "invoiced": {
-  "display": "A$0",
-  "note": "none recorded yet"
+  "display": "USD 7,000",
+  "note": null
  },
  "offers_out": {
   "count": 13,
@@ -20,24 +20,25 @@
  "pipeline_by_stage": [
   {
    "stage": "Dropped",
-   "count": 14,
+   "count": 15,
    "value": [
     "not counted"
    ]
   },
   {
    "stage": "Qualified, no offer yet",
-   "count": 9,
+   "count": 0,
    "value": [
     "none priced"
    ]
   },
   {
    "stage": "Offer drafted",
-   "count": 12,
+   "count": 20,
    "value": [
+    "AUD 2,950",
     "GBP 2,950",
-    "USD 12,950"
+    "USD 15,750"
    ]
   },
   {
@@ -87,7 +88,7 @@
   {
    "platform": "Airtasker",
    "found": 23,
-   "active": 17,
+   "active": 16,
    "sent": 11,
    "won": 0
   },
@@ -219,6 +220,12 @@
    "status": "Draft only"
   },
   {
+   "title": "Freelance AI automation developer (n8n/Make/Zapier, AI agents)",
+   "platform": "LinkedIn",
+   "price": "USD 1,500",
+   "status": "Draft only"
+  },
+  {
    "title": "Visual redesign of 14-page static HTML/CSS SaaS site",
    "platform": "Upwork",
    "price": "USD 1,400",
@@ -237,9 +244,33 @@
    "status": "Draft only"
   },
   {
+   "title": "Mobile app + website",
+   "platform": "X",
+   "price": "USD 800",
+   "status": "Draft only"
+  },
+  {
+   "title": "Help setting up a  website/ logo on the Gold Coast if possible",
+   "platform": "Airtasker",
+   "price": "AUD 750",
+   "status": "Draft only"
+  },
+  {
    "title": "Recommend a website designer",
    "platform": "X",
    "price": "USD 600",
+   "status": "Draft only"
+  },
+  {
+   "title": "Build website",
+   "platform": "Airtasker",
+   "price": "AUD 600",
+   "status": "Draft only"
+  },
+  {
+   "title": "Build a website with shopify",
+   "platform": "Airtasker",
+   "price": "AUD 600",
    "status": "Draft only"
   },
   {
@@ -251,6 +282,24 @@
   {
    "title": "Framer ad landing pages for B2B SaaS",
    "platform": "Upwork",
+   "price": "USD 500",
+   "status": "Draft only"
+  },
+  {
+   "title": "Website development",
+   "platform": "Airtasker",
+   "price": "AUD 500",
+   "status": "Draft only"
+  },
+  {
+   "title": "Creating a new website",
+   "platform": "Airtasker",
+   "price": "AUD 500",
+   "status": "Draft only"
+  },
+  {
+   "title": "Webflow developer for German-market blog layouts and landing pages",
+   "platform": "LinkedIn",
    "price": "USD 500",
    "status": "Draft only"
   },
@@ -281,8 +330,8 @@
   },
   {
    "agent": "Lead Hunter",
-   "last_activity": "Wed 04 Nov, 02:36 Perth",
-   "last_action": "lead dropped"
+   "last_activity": "Wed 04 Nov, 03:39 Perth",
+   "last_action": "offer drafted"
   },
   {
    "agent": "Delivery Studio",
@@ -291,8 +340,8 @@
   },
   {
    "agent": "Billing & Reviews",
-   "last_activity": "Wed 04 Nov, 02:31 Perth",
-   "last_action": "invoice template update"
+   "last_activity": "Wed 04 Nov, 03:37 Perth",
+   "last_action": "invoice prepared"
   }
  ],
  "systems": [
