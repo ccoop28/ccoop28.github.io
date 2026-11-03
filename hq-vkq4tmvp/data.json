@@ -1,5 +1,5 @@
 {
- "updated": "Wed 04 Nov 2026, 02:37 Perth (UTC+8)",
+ "updated": "Wed 04 Nov 2026, 03:21 Perth (UTC+8)",
  "income_received": {
   "display": "A$0",
   "note": "none recorded yet"
@@ -9,14 +9,14 @@
   "note": "none recorded yet"
  },
  "offers_out": {
-  "count": 7,
-  "priced": 5,
+  "count": 13,
+  "priced": 11,
   "total": [
-   "AUD 3,800"
+   "AUD 7,290"
   ]
  },
  "replies": 0,
- "leads_found": 43,
+ "leads_found": 49,
  "pipeline_by_stage": [
   {
    "stage": "Dropped",
@@ -49,9 +49,9 @@
   },
   {
    "stage": "Offer sent",
-   "count": 7,
+   "count": 13,
    "value": [
-    "AUD 3,800"
+    "AUD 7,290"
    ]
   },
   {
@@ -86,9 +86,9 @@
  "pipeline_by_source": [
   {
    "platform": "Airtasker",
-   "found": 17,
-   "active": 11,
-   "sent": 5,
+   "found": 23,
+   "active": 17,
+   "sent": 11,
    "won": 0
   },
   {
@@ -121,9 +121,21 @@
    "status": "Approved, waiting on cc28 to send"
   },
   {
-   "title": "Website built from lovable creation",
+   "title": "Website Designer Needed for New Australian Surfwear Brand",
    "platform": "Airtasker",
-   "price": "AUD 1,900",
+   "price": "AUD 1,200",
+   "status": "Offer sent, awaiting reply"
+  },
+  {
+   "title": "Make a website for our renovation business/company",
+   "platform": "Airtasker",
+   "price": "AUD 1,000",
+   "status": "Offer sent, awaiting reply"
+  },
+  {
+   "title": "Small business website development",
+   "platform": "Airtasker",
+   "price": "AUD 500",
    "status": "Offer sent, awaiting reply"
   },
   {
@@ -139,9 +151,33 @@
    "status": "Offer sent, awaiting reply"
   },
   {
+   "title": "Need a beauty & wellness website build via wixs",
+   "platform": "Airtasker",
+   "price": "AUD 600",
+   "status": "Offer sent, awaiting reply"
+  },
+  {
+   "title": "Website built from lovable creation",
+   "platform": "Airtasker",
+   "price": "AUD 1,900",
+   "status": "Offer sent, awaiting reply"
+  },
+  {
+   "title": "Need logo created for business card, instagram and thumbnail",
+   "platform": "Airtasker",
+   "price": "AUD 90",
+   "status": "Offer sent, awaiting reply"
+  },
+  {
    "title": "Looking for electrical and air conditioning website built. Perth based",
    "platform": "Airtasker",
    "price": "AUD 1,500",
+   "status": "Offer sent, awaiting reply"
+  },
+  {
+   "title": "Website updated through wix",
+   "platform": "Airtasker",
+   "price": "AUD 100",
    "status": "Offer sent, awaiting reply"
   },
   {
@@ -240,8 +276,8 @@
  "team": [
   {
    "agent": "Freelance Revenue Agent",
-   "last_activity": "Wed 04 Nov, 01:13 Perth",
-   "last_action": "scoring update"
+   "last_activity": "Wed 04 Nov, 03:21 Perth",
+   "last_action": "lead cycle run"
   },
   {
    "agent": "Lead Hunter",
