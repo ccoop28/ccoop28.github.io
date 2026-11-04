@@ -1,5 +1,5 @@
 {
- "updated": "Wed 04 Nov 2026, 07:36 Perth (UTC+8)",
+ "updated": "Wed 04 Nov 2026, 08:32 Perth (UTC+8)",
  "income_received": {
   "display": "A$0",
   "note": "none recorded yet"
@@ -9,14 +9,14 @@
   "note": "none recorded yet"
  },
  "offers_out": {
-  "count": 15,
+  "count": 17,
   "priced": 13,
   "total": [
    "AUD 8,640"
   ]
  },
  "replies": 0,
- "leads_found": 56,
+ "leads_found": 58,
  "pipeline_by_stage": [
   {
    "stage": "Dropped",
@@ -50,7 +50,7 @@
   },
   {
    "stage": "Offer sent",
-   "count": 15,
+   "count": 17,
    "value": [
     "AUD 8,640"
    ]
@@ -87,9 +87,9 @@
  "pipeline_by_source": [
   {
    "platform": "Airtasker",
-   "found": 23,
-   "active": 13,
-   "sent": 13,
+   "found": 25,
+   "active": 15,
+   "sent": 15,
    "won": 0
   },
   {
@@ -179,6 +179,18 @@
    "title": "Website updated through wix",
    "platform": "Airtasker",
    "price": "AUD 100",
+   "status": "Offer sent, awaiting reply"
+  },
+  {
+   "title": "Design Broucures",
+   "platform": "Airtasker",
+   "price": "Price in DM / to quote",
+   "status": "Offer sent, awaiting reply"
+  },
+  {
+   "title": "Graphic designer - Help to create Logo and some documents in pdf",
+   "platform": "Airtasker",
+   "price": "Price in DM / to quote",
    "status": "Offer sent, awaiting reply"
   },
   {
@@ -337,13 +349,13 @@
  "team": [
   {
    "agent": "Freelance Revenue Agent",
-   "last_activity": "Wed 04 Nov, 06:11 Perth",
-   "last_action": "lead cycle run"
+   "last_activity": "Wed 04 Nov, 08:12 Perth",
+   "last_action": "outreach sent"
   },
   {
    "agent": "Lead Hunter",
-   "last_activity": "Wed 04 Nov, 05:42 Perth",
-   "last_action": "leads sourced"
+   "last_activity": "Wed 04 Nov, 08:10 Perth",
+   "last_action": "airtasker offers verified"
   },
   {
    "agent": "Delivery Studio",
