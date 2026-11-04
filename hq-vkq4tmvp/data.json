@@ -1,5 +1,5 @@
 {
- "updated": "Wed 04 Nov 2026, 09:38 Perth (UTC+8)",
+ "updated": "Wed 04 Nov 2026, 10:35 Perth (UTC+8)",
  "income_received": {
   "display": "A$0",
   "note": "none recorded yet"
@@ -17,18 +17,18 @@
   ]
  },
  "replies": 0,
- "leads_found": 61,
+ "leads_found": 72,
  "pipeline_by_stage": [
   {
    "stage": "Dropped",
-   "count": 19,
+   "count": 20,
    "value": [
     "not counted"
    ]
   },
   {
    "stage": "Qualified, no offer yet",
-   "count": 1,
+   "count": 11,
    "value": [
     "none priced"
    ]
@@ -103,16 +103,23 @@
   },
   {
    "platform": "Upwork",
-   "found": 11,
-   "active": 11,
+   "found": 15,
+   "active": 15,
    "sent": 0,
    "won": 0
   },
   {
    "platform": "LinkedIn",
-   "found": 7,
-   "active": 5,
+   "found": 9,
+   "active": 7,
    "sent": 2,
+   "won": 0
+  },
+  {
+   "platform": "Freelancer",
+   "found": 5,
+   "active": 4,
+   "sent": 0,
    "won": 0
   }
  ],
@@ -136,7 +143,7 @@
    "status": "Offer sent, awaiting reply"
   },
   {
-   "title": "Make a website for our renovation business/company",
+   "title": "Airtasker job (title hidden)",
    "platform": "Airtasker",
    "price": "AUD 1,000",
    "status": "Offer sent, awaiting reply"
@@ -330,7 +337,7 @@
    "status": "Draft only"
   },
   {
-   "title": "Wix website refresh for caretovoice.com (4 weeks)",
+   "title": "Upwork job (title hidden)",
    "platform": "Upwork",
    "price": "AUD 1,100",
    "status": "Draft only"
@@ -374,12 +381,12 @@
   },
   {
    "agent": "Lead Hunter",
-   "last_activity": "Wed 04 Nov, 08:10 Perth",
-   "last_action": "airtasker offers verified"
+   "last_activity": "Wed 04 Nov, 09:48 Perth",
+   "last_action": "lead dropped"
   },
   {
    "agent": "Delivery Studio",
-   "last_activity": "Wed 04 Nov, 06:34 Perth",
+   "last_activity": "Wed 04 Nov, 09:40 Perth",
    "last_action": "delivery starters ready"
   },
   {
