@@ -1,5 +1,5 @@
 {
- "updated": "Wed 04 Nov 2026, 08:32 Perth (UTC+8)",
+ "updated": "Wed 04 Nov 2026, 09:12 Perth (UTC+8)",
  "income_received": {
   "display": "A$0",
   "note": "none recorded yet"
@@ -9,14 +9,15 @@
   "note": "none recorded yet"
  },
  "offers_out": {
-  "count": 17,
-  "priced": 13,
+  "count": 27,
+  "priced": 20,
   "total": [
-   "AUD 8,640"
+   "AUD 8,640",
+   "USD 4,750"
   ]
  },
  "replies": 0,
- "leads_found": 58,
+ "leads_found": 61,
  "pipeline_by_stage": [
   {
    "stage": "Dropped",
@@ -34,11 +35,11 @@
   },
   {
    "stage": "Offer drafted",
-   "count": 20,
+   "count": 13,
    "value": [
     "AUD 2,600",
     "GBP 2,950",
-    "USD 19,100"
+    "USD 14,350"
    ]
   },
   {
@@ -50,9 +51,10 @@
   },
   {
    "stage": "Offer sent",
-   "count": 17,
+   "count": 27,
    "value": [
-    "AUD 8,640"
+    "AUD 8,640",
+    "USD 4,750"
    ]
   },
   {
@@ -87,16 +89,16 @@
  "pipeline_by_source": [
   {
    "platform": "Airtasker",
-   "found": 25,
-   "active": 15,
-   "sent": 15,
+   "found": 28,
+   "active": 18,
+   "sent": 18,
    "won": 0
   },
   {
    "platform": "X",
    "found": 15,
    "active": 8,
-   "sent": 0,
+   "sent": 7,
    "won": 0
   },
   {
@@ -122,6 +124,12 @@
    "status": "Approved, waiting on cc28 to send"
   },
   {
+   "title": "X job (title hidden)",
+   "platform": "X",
+   "price": "USD 450",
+   "status": "Offer sent, awaiting reply"
+  },
+  {
    "title": "Website Designer Needed for New Australian Surfwear Brand",
    "platform": "Airtasker",
    "price": "AUD 1,200",
@@ -140,9 +148,21 @@
    "status": "Offer sent, awaiting reply"
   },
   {
+   "title": "Web designer for a PC tweaks business/store",
+   "platform": "X",
+   "price": "USD 900",
+   "status": "Offer sent, awaiting reply"
+  },
+  {
    "title": "Shopify developer, ongoing agency work",
    "platform": "LinkedIn",
    "price": "Price in DM / to quote",
+   "status": "Offer sent, awaiting reply"
+  },
+  {
+   "title": "Needs a website built",
+   "platform": "X",
+   "price": "USD 1,200",
    "status": "Offer sent, awaiting reply"
   },
   {
@@ -158,9 +178,33 @@
    "status": "Offer sent, awaiting reply"
   },
   {
+   "title": "Seeking a WordPress developer",
+   "platform": "X",
+   "price": "USD 450",
+   "status": "Offer sent, awaiting reply"
+  },
+  {
+   "title": "Set up a Shopify website, also design the website (hats brand)",
+   "platform": "Airtasker",
+   "price": "Price in DM / to quote",
+   "status": "Offer sent, awaiting reply"
+  },
+  {
    "title": "Website built from lovable creation",
    "platform": "Airtasker",
    "price": "AUD 1,900",
+   "status": "Offer sent, awaiting reply"
+  },
+  {
+   "title": "Graphic design, logo",
+   "platform": "Airtasker",
+   "price": "Price in DM / to quote",
+   "status": "Offer sent, awaiting reply"
+  },
+  {
+   "title": "Help setting up a Shopify store (+ Instagram)",
+   "platform": "X",
+   "price": "USD 350",
    "status": "Offer sent, awaiting reply"
   },
   {
@@ -200,9 +244,27 @@
    "status": "Offer sent, awaiting reply"
   },
   {
+   "title": "Recommend a website designer",
+   "platform": "X",
+   "price": "USD 600",
+   "status": "Offer sent, awaiting reply"
+  },
+  {
+   "title": "Mobile app + website",
+   "platform": "X",
+   "price": "USD 800",
+   "status": "Offer sent, awaiting reply"
+  },
+  {
    "title": "Build website",
    "platform": "Airtasker",
    "price": "AUD 600",
+   "status": "Offer sent, awaiting reply"
+  },
+  {
+   "title": "LinkedIn profile",
+   "platform": "Airtasker",
+   "price": "Price in DM / to quote",
    "status": "Offer sent, awaiting reply"
   },
   {
@@ -268,12 +330,6 @@
    "status": "Draft only"
   },
   {
-   "title": "Needs a website built",
-   "platform": "X",
-   "price": "USD 1,200",
-   "status": "Draft only"
-  },
-  {
    "title": "Wix website refresh for caretovoice.com (4 weeks)",
    "platform": "Upwork",
    "price": "AUD 1,100",
@@ -286,27 +342,9 @@
    "status": "Draft only"
   },
   {
-   "title": "Web designer for a PC tweaks business/store",
-   "platform": "X",
-   "price": "USD 900",
-   "status": "Draft only"
-  },
-  {
    "title": "No-code MVP for a talent marketplace (Framer/Webflow + Airtable + Stripe + Zapier)",
    "platform": "Upwork",
    "price": "USD 850",
-   "status": "Draft only"
-  },
-  {
-   "title": "Mobile app + website",
-   "platform": "X",
-   "price": "USD 800",
-   "status": "Draft only"
-  },
-  {
-   "title": "Recommend a website designer",
-   "platform": "X",
-   "price": "USD 600",
    "status": "Draft only"
   },
   {
@@ -326,31 +364,13 @@
    "platform": "LinkedIn",
    "price": "USD 500",
    "status": "Draft only"
-  },
-  {
-   "title": "X job (title hidden)",
-   "platform": "X",
-   "price": "USD 450",
-   "status": "Draft only"
-  },
-  {
-   "title": "Seeking a WordPress developer",
-   "platform": "X",
-   "price": "USD 450",
-   "status": "Draft only"
-  },
-  {
-   "title": "Help setting up a Shopify store (+ Instagram)",
-   "platform": "X",
-   "price": "USD 350",
-   "status": "Draft only"
   }
  ],
  "team": [
   {
    "agent": "Freelance Revenue Agent",
-   "last_activity": "Wed 04 Nov, 08:12 Perth",
-   "last_action": "outreach sent"
+   "last_activity": "Wed 04 Nov, 09:12 Perth",
+   "last_action": "lead cycle run"
   },
   {
    "agent": "Lead Hunter",
@@ -364,8 +384,8 @@
   },
   {
    "agent": "Billing & Reviews",
-   "last_activity": "Wed 04 Nov, 05:35 Perth",
-   "last_action": "review requests prepared"
+   "last_activity": "Wed 04 Nov, 09:01 Perth",
+   "last_action": "daily billing check"
   }
  ],
  "systems": [
@@ -391,8 +411,8 @@
    "for": "Lead Hunter"
   },
   {
-   "what": "Tap Post on the 6 ready X reply offers (about USD 3,950); links are in your Lead Hunter chat",
-   "for": "Lead Hunter"
+   "what": "Send the approved USD 5,800 Webflow offer (email link in your private chat), or link your iCloud email with an app-specific password in your Freelance Revenue Agent chat",
+   "for": "Freelance Revenue Agent"
   },
   {
    "what": "Send your ABN and GST status (needed on invoices)",
