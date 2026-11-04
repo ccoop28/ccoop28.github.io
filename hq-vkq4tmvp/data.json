@@ -1,5 +1,5 @@
 {
- "updated": "Wed 04 Nov 2026, 11:36 Perth (UTC+8)",
+ "updated": "Wed 04 Nov 2026, 12:20 Perth (UTC+8)",
  "income_received": {
   "display": "A$0",
   "note": "none recorded yet"
@@ -9,7 +9,7 @@
   "note": "none recorded yet"
  },
  "offers_out": {
-  "count": 28,
+  "count": 31,
   "priced": 20,
   "total": [
    "AUD 8,640",
@@ -17,7 +17,7 @@
   ]
  },
  "replies": 0,
- "leads_found": 73,
+ "leads_found": 76,
  "pipeline_by_stage": [
   {
    "stage": "Dropped",
@@ -51,7 +51,7 @@
   },
   {
    "stage": "Offer sent",
-   "count": 28,
+   "count": 31,
    "value": [
     "AUD 8,640",
     "USD 4,750"
@@ -89,9 +89,9 @@
  "pipeline_by_source": [
   {
    "platform": "Airtasker",
-   "found": 29,
-   "active": 19,
-   "sent": 19,
+   "found": 32,
+   "active": 22,
+   "sent": 22,
    "won": 0
   },
   {
@@ -179,6 +179,12 @@
    "status": "Offer sent, awaiting reply"
   },
   {
+   "title": "Logo redesign plus new file set",
+   "platform": "Airtasker",
+   "price": "Price in DM / to quote",
+   "status": "Offer sent, awaiting reply"
+  },
+  {
    "title": "Need a beauty & wellness website build via wixs",
    "platform": "Airtasker",
    "price": "AUD 600",
@@ -246,6 +252,18 @@
   },
   {
    "title": "Airtasker job (title hidden)",
+   "platform": "Airtasker",
+   "price": "Price in DM / to quote",
+   "status": "Offer sent, awaiting reply"
+  },
+  {
+   "title": "Graphic design layout for 1.8 x 2.4 m roadside sign",
+   "platform": "Airtasker",
+   "price": "Price in DM / to quote",
+   "status": "Offer sent, awaiting reply"
+  },
+  {
+   "title": "Refresh early learning centre's Wix website",
    "platform": "Airtasker",
    "price": "Price in DM / to quote",
    "status": "Offer sent, awaiting reply"
@@ -382,13 +400,13 @@
  "team": [
   {
    "agent": "Freelance Revenue Agent",
-   "last_activity": "Wed 04 Nov, 09:12 Perth",
+   "last_activity": "Wed 04 Nov, 12:20 Perth",
    "last_action": "lead cycle run"
   },
   {
    "agent": "Lead Hunter",
-   "last_activity": "Wed 04 Nov, 11:11 Perth",
-   "last_action": "lead cycle run"
+   "last_activity": "Wed 04 Nov, 11:47 Perth",
+   "last_action": "application sent"
   },
   {
    "agent": "Delivery Studio",
@@ -397,8 +415,8 @@
   },
   {
    "agent": "Billing & Reviews",
-   "last_activity": "Wed 04 Nov, 09:01 Perth",
-   "last_action": "daily billing check"
+   "last_activity": "Wed 04 Nov, 11:47 Perth",
+   "last_action": "invoice prepared"
   }
  ],
  "systems": [
