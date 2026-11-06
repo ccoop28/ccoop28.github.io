@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Zhala</title>
+<meta name="theme-color" content="#0d0f14">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Zhala">
+<meta name="robots" content="noindex">
+<link rel="manifest" href="manifest.json">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="icon" type="image/png" href="icon-180.png">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<main id="main" class="screen">
+  <header class="top">
+    <div class="brand"><span class="mark">Z</span><span>Zhala</span></div>
+    <button id="openSettings" class="icon-btn" aria-label="Settings">
+      <svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true"><path fill="currentColor" d="M19.4 13a7.5 7.5 0 0 0 0-2l2-1.6-2-3.4-2.4 1a7.6 7.6 0 0 0-1.7-1L15 3.5h-4l-.4 2.5a7.6 7.6 0 0 0-1.7 1l-2.4-1-2 3.4 2 1.6a7.5 7.5 0 0 0 0 2l-2 1.6 2 3.4 2.4-1c.5.4 1.1.7 1.7 1l.4 2.5h4l.4-2.5c.6-.3 1.2-.6 1.7-1l2.4 1 2-3.4-2-1.6zM13 15.5a3.5 3.5 0 1 1 0-7 3.5 3.5 0 0 1 0 7z" transform="translate(-1 0)"/></svg>
+    </button>
+  </header>
+
+  <div id="banner" class="banner" hidden></div>
+
+  <section id="log" class="log" aria-live="polite"></section>
+
+  <section class="controls">
+    <div id="status" class="status">Tap to talk</div>
+    <button id="mic" class="mic" aria-label="Tap to talk">
+      <span class="ring"></span>
+      <svg viewBox="0 0 24 24" width="44" height="44" aria-hidden="true"><path fill="currentColor" d="M12 15a3 3 0 0 0 3-3V6a3 3 0 1 0-6 0v6a3 3 0 0 0 3 3zm5-3a5 5 0 0 1-10 0H5a7 7 0 0 0 6 6.9V21h2v-2.1a7 7 0 0 0 6-6.9h-2z"/></svg>
+    </button>
+    <form id="textForm" class="text-form" autocomplete="off">
+      <input id="textInput" type="text" placeholder="Or type to Zhala…" enterkeyhint="send" aria-label="Message Zhala">
+      <button type="submit" class="send" aria-label="Send">➤</button>
+    </form>
+  </section>
+</main>
+
+<section id="settings" class="screen settings" hidden>
+  <header class="top">
+    <button id="closeSettings" class="text-btn">‹ Back</button>
+    <div class="brand"><span>Settings</span></div>
+    <span style="width:60px"></span>
+  </header>
+  <div class="settings-body">
+    <label class="field">
+      <span>Alibaba Model Studio API key (Singapore / international)</span>
+      <input id="apiKey" type="password" placeholder="sk-…" autocomplete="off" autocapitalize="off" spellcheck="false">
+      <small>Saved only on this iPhone (localStorage). Sent only to Alibaba (dashscope-intl.aliyuncs.com). Never paste it in chat.</small>
+    </label>
+    <label class="field">
+      <span>Brain (Qwen model)</span>
+      <select id="model"></select>
+    </label>
+    <label class="field">
+      <span>Voice engine</span>
+      <select id="ttsEngine">
+        <option value="qwen3-tts-flash">Qwen3-TTS Flash (preset voices)</option>
+        <option value="qwen3-tts-instruct-flash">Qwen3-TTS Instruct Flash (New York accent instruction)</option>
+        <option value="device">iPhone built-in voice (free, offline)</option>
+      </select>
+    </label>
+    <label class="field" id="voiceField">
+      <span>Qwen voice</span>
+      <select id="voice"></select>
+      <small id="voiceHint"></small>
+    </label>
+    <label class="field">
+      <span>Weather location</span>
+      <input id="city" type="text" placeholder="Perth">
+    </label>
+    <label class="field">
+      <span>API host (advanced, leave blank)</span>
+      <input id="host" type="text" placeholder="https://dashscope-intl.aliyuncs.com" autocomplete="off" autocapitalize="off" spellcheck="false" inputmode="url">
+      <small>Only change this if Alibaba shows you a different Singapore API host. Must be an aliyuncs.com https address.</small>
+    </label>
+    <label class="field check">
+      <input id="autoListen" type="checkbox">
+      <span>Keep listening after Zhala replies</span>
+    </label>
+    <div class="row">
+      <button id="testVoice" class="btn">Test voice</button>
+      <button id="saveSettings" class="btn primary">Save</button>
+    </div>
+    <div class="row">
+      <button id="clearKey" class="btn danger">Remove key</button>
+      <button id="clearChat" class="btn">Clear chat</button>
+    </div>
+    <p class="fine">No wake word: iPhone doesn't let web apps listen in the background, so tap the mic to talk. Zhala is an original character voice, not an imitation of any real person.</p>
+    <p class="fine">Voice samples: <a href="samples/voice-A.mp3">A</a> · <a href="samples/voice-B.mp3">B</a> · <a href="samples/voice-C.mp3">C</a></p>
+    <p class="fine" id="version"></p>
+  </div>
+</section>
+
+<audio id="player" playsinline preload="auto"></audio>
+<script src="app.js"></script>
+</body>
+</html>
