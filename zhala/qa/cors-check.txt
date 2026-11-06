@@ -1,0 +1,19 @@
+# CORS check, 2026-11-06 18:49 AWST (Perth, UTC+8)
+
+$ curl -i -X OPTIONS https://dashscope-intl.aliyuncs.com/compatible-mode/v1/chat/completions -H 'Origin: https://ccoop28.github.io' -H 'Access-Control-Request-Method: POST' -H 'Access-Control-Request-Headers: authorization,content-type'
+HTTP/2 200 
+access-control-allow-origin: https://ccoop28.github.io
+access-control-allow-credentials: true
+access-control-allow-methods: GET,POST,PUT,DELETE,HEAD,OPTIONS,PATCH
+access-control-allow-headers: authorization,content-type
+access-control-max-age: 86400
+access-control-expose-headers: *
+
+$ curl -i -X OPTIONS https://dashscope-intl.aliyuncs.com/api/v1/services/aigc/multimodal-generation/generation -H 'Origin: https://ccoop28.github.io' -H 'Access-Control-Request-Method: POST' -H 'Access-Control-Request-Headers: authorization,content-type'
+HTTP/2 200 
+access-control-allow-origin: https://ccoop28.github.io
+access-control-allow-credentials: true
+access-control-allow-methods: GET,POST,PUT,DELETE,HEAD,OPTIONS,PATCH
+access-control-allow-headers: authorization,content-type
+access-control-max-age: 86400
+access-control-expose-headers: *
