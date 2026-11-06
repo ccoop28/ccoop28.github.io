@@ -1,0 +1,295 @@
+<!doctype html>
+<html lang="en-AU">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex">
+<meta name="description" content="Sample / concept homepage for a fictional early learning centre. Shows the layout and style ChaseDigital would apply in a Wix refresh. Not a real client, not built in Wix.">
+<title>Honeygum Early Learning — Sample / concept work by ChaseDigital (fictional centre)</title>
+<style>
+*{box-sizing:border-box}
+:root{
+  --cream:#FBF7F0;--sand:#E8D5B8;--sage:#7A9B76;--sage-deep:#4F6B4C;
+  --terra:#C46B4A;--terra-deep:#A35235;--ink:#1F2A24;--muted:#5A6A5E;
+  --white:#fff;--line:#E0D2BC;--radius:16px;
+  --font:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  --serif:Georgia,"Times New Roman",serif;
+}
+html{scroll-behavior:smooth}
+body{margin:0;font-family:var(--font);font-size:17px;line-height:1.55;color:var(--ink);background:var(--cream)}
+a{color:var(--sage-deep)}
+img,svg{display:block;max-width:100%}
+.banner{background:var(--terra);color:#fff;text-align:center;padding:12px 16px;font-weight:600;font-size:14px;line-height:1.4}
+.wrap{max-width:1080px;margin:0 auto;padding:0 20px}
+.site-header{position:sticky;top:0;z-index:40;background:rgba(251,247,240,.96);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+.header-inner{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:12px 0;min-height:64px}
+.brand{display:flex;align-items:center;gap:10px;text-decoration:none;color:inherit;font-weight:700}
+.brand-mark{width:40px;height:40px;border-radius:50%;background:linear-gradient(145deg,var(--sage),var(--sage-deep));display:grid;place-items:center;color:#fff;font-family:var(--serif);font-size:18px}
+.brand span{font-family:var(--serif);font-size:18px;line-height:1.2}
+.nav{display:flex;align-items:center;gap:4px;flex-wrap:wrap}
+.nav a{text-decoration:none;color:var(--ink);font-weight:600;font-size:15px;padding:10px 12px;border-radius:999px;min-height:44px;display:inline-flex;align-items:center}
+.nav a:hover{background:var(--sand)}
+.btn{display:inline-flex;align-items:center;justify-content:center;min-height:44px;padding:12px 20px;border-radius:999px;border:0;font:inherit;font-weight:700;font-size:16px;text-decoration:none;cursor:pointer}
+.btn-primary{background:var(--terra);color:#fff}
+.btn-primary:hover{background:var(--terra-deep)}
+.btn-secondary{background:var(--sage);color:#fff}
+.btn-ghost{background:transparent;border:2px solid var(--sage-deep);color:var(--sage-deep)}
+.menu-toggle{display:none;min-height:44px;min-width:44px;border:1px solid var(--line);background:var(--white);border-radius:10px;font-weight:700}
+.hero{padding:48px 0 36px;display:grid;grid-template-columns:1.15fr .85fr;gap:36px;align-items:center}
+.hero h1{font-family:var(--serif);font-size:clamp(32px,5vw,48px);line-height:1.15;margin:0 0 14px;font-weight:700}
+.hero p.lead{font-size:18px;color:var(--muted);margin:0 0 22px;max-width:36em}
+.hero-actions{display:flex;flex-wrap:wrap;gap:12px}
+.hero-art{background:linear-gradient(160deg,var(--sand),#F3E7D3 45%,#D9E5D4);border-radius:28px;min-height:320px;position:relative;overflow:hidden;border:1px solid var(--line)}
+.blob{position:absolute;border-radius:50%}
+.blob.a{width:180px;height:180px;background:var(--sage);opacity:.55;top:30px;left:40px}
+.blob.b{width:120px;height:120px;background:var(--terra);opacity:.45;bottom:40px;right:50px}
+.blob.c{width:70px;height:70px;background:#E8C07A;opacity:.7;top:50px;right:70px}
+.tree{position:absolute;bottom:24px;left:50%;transform:translateX(-50%);width:160px;height:200px}
+.tree .trunk{position:absolute;bottom:0;left:50%;width:18px;height:70px;background:#8B5E3C;transform:translateX(-50%);border-radius:4px}
+.tree .canopy{position:absolute;bottom:50px;left:50%;width:140px;height:140px;background:var(--sage-deep);border-radius:50%;transform:translateX(-50%)}
+.tree .canopy::before,.tree .canopy::after{content:"";position:absolute;border-radius:50%;background:var(--sage)}
+.tree .canopy::before{width:90px;height:90px;top:-20px;left:10px}
+.tree .canopy::after{width:80px;height:80px;top:10px;right:-10px;background:#9BB896}
+.kicker{display:inline-block;font-size:13px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;color:var(--terra-deep);background:#F3E0D6;padding:4px 10px;border-radius:999px;margin-bottom:12px}
+section{padding:48px 0}
+section h2{font-family:var(--serif);font-size:clamp(26px,3.5vw,34px);margin:0 0 10px}
+section .sub{color:var(--muted);margin:0 0 28px;max-width:40em}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.card{background:var(--white);border:1px solid var(--line);border-radius:var(--radius);padding:22px}
+.card .icon{width:56px;height:56px;border-radius:14px;display:grid;place-items:center;margin-bottom:14px;font-size:24px}
+.card h3{font-family:var(--serif);font-size:22px;margin:0 0 8px}
+.card p{margin:0;color:var(--muted);font-size:16px}
+.icon-n{background:#E8F0E6}.icon-t{background:#F3E7D3}.icon-p{background:#F3E0D6}
+.compare{background:var(--white);border:1px solid var(--line);border-radius:var(--radius);padding:22px}
+.compare-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+.compare h3{font-size:16px;margin:0 0 10px}
+.menu-fake{display:flex;flex-wrap:wrap;gap:6px}
+.chip{font-size:12px;padding:6px 10px;border-radius:8px;background:#F0E6D6;color:var(--muted);text-decoration:line-through}
+.chip.on{background:#E8F0E6;color:var(--sage-deep);text-decoration:none;font-weight:600}
+.note{font-size:14px;color:var(--muted);margin-top:12px}
+.timeline{display:grid;gap:0;border-left:3px solid var(--sand);margin-left:10px;padding-left:22px}
+.tl-item{position:relative;padding:0 0 22px}
+.tl-item::before{content:"";position:absolute;left:-31px;top:6px;width:14px;height:14px;border-radius:50%;background:var(--sage);border:3px solid var(--cream)}
+.tl-item strong{display:block;font-size:15px;color:var(--terra-deep)}
+.tl-item span{color:var(--muted)}
+.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+.step{background:var(--white);border:1px solid var(--line);border-radius:var(--radius);padding:18px}
+.step .n{width:36px;height:36px;border-radius:50%;background:var(--sage);color:#fff;display:grid;place-items:center;font-weight:700;margin-bottom:10px}
+.step h3{font-size:17px;margin:0 0 6px;font-family:var(--serif)}
+.step p{margin:0;font-size:15px;color:var(--muted)}
+.contact{display:grid;grid-template-columns:1.1fr .9fr;gap:24px;align-items:start}
+.contact-card{background:var(--white);border:1px solid var(--line);border-radius:var(--radius);padding:24px}
+.contact-card dt{font-weight:700;margin-top:12px}
+.contact-card dd{margin:2px 0 0;color:var(--muted)}
+.example{display:inline-block;font-size:12px;font-weight:700;background:#F3E0D6;color:var(--terra-deep);padding:2px 8px;border-radius:999px;margin-left:6px;vertical-align:middle}
+.form{display:grid;gap:12px}
+.form label{font-weight:600;font-size:15px}
+.form input,.form textarea{width:100%;min-height:44px;padding:10px 12px;border:1px solid var(--line);border-radius:10px;font:inherit;background:var(--cream)}
+.form textarea{min-height:110px;resize:vertical}
+.form .hint{font-size:13px;color:var(--muted);margin:0}
+.site-footer{border-top:1px solid var(--line);padding:28px 0 40px;font-size:14px;color:var(--muted)}
+.site-footer strong{color:var(--ink)}
+.sand-band{background:#F3E7D3}
+@media (max-width:860px){
+  .hero,.compare-grid,.contact{grid-template-columns:1fr}
+  .cards,.steps{grid-template-columns:1fr}
+  .nav{display:none}
+  .nav.open{display:flex;flex-direction:column;align-items:stretch;position:absolute;left:0;right:0;top:100%;background:var(--cream);border-bottom:1px solid var(--line);padding:12px 20px 16px}
+  .menu-toggle{display:inline-flex;align-items:center;justify-content:center}
+  .header-inner{flex-wrap:wrap}
+  .header-cta{order:2}
+  .menu-toggle{order:3;margin-left:auto}
+  .brand{order:1}
+}
+</style>
+</head>
+<body>
+<div class="banner">Sample / concept work by ChaseDigital, fictional centre, not a real client. Shows the layout and style we'd apply in a Wix refresh.</div>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="#top" aria-label="Honeygum Early Learning home">
+      <span class="brand-mark" aria-hidden="true">H</span>
+      <span>Honeygum<br>Early Learning</span>
+    </a>
+    <nav class="nav" id="mainNav" aria-label="Primary">
+      <a href="#about">About</a>
+      <a href="#rooms">Rooms &amp; Programs</a>
+      <a href="#enrol">Enrol</a>
+      <a href="#families">Families</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a class="btn btn-primary header-cta" href="#contact">Book a tour</a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="mainNav" id="menuBtn">Menu</button>
+  </div>
+</header>
+
+<main id="top">
+  <section class="wrap hero">
+    <div>
+      <span class="kicker">Concept homepage</span>
+      <h1>Warm, clear and easy for families to use</h1>
+      <p class="lead">A fictional early learning centre homepage. Simpler navigation, an earthy restyle, and a layout that works on phones — the kind of refresh we'd apply so staff can keep editing content themselves.</p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="#contact">Book a tour</a>
+        <a class="btn btn-ghost" href="#rooms">See programs</a>
+      </div>
+    </div>
+    <div class="hero-art" aria-hidden="true">
+      <div class="blob a"></div>
+      <div class="blob b"></div>
+      <div class="blob c"></div>
+      <div class="tree"><div class="canopy"></div><div class="trunk"></div></div>
+    </div>
+  </section>
+
+  <section class="sand-band" id="about">
+    <div class="wrap">
+      <h2>About this concept</h2>
+      <p class="sub">Honeygum Early Learning is invented for this sample. No real centre, no ratings, no fees and no photos of children. The goal is to show a calmer homepage structure that families can scan on a phone.</p>
+      <div class="compare">
+        <h3 style="font-family:var(--serif);font-size:22px;margin:0 0 8px">Navigation, before and after</h3>
+        <p class="note" style="margin-top:0">Illustrative only — a cluttered menu versus a short 5-item menu.</p>
+        <div class="compare-grid">
+          <div>
+            <h3>Before (illustrative)</h3>
+            <div class="menu-fake" aria-label="Cluttered example menu">
+              <span class="chip">Home</span><span class="chip">About us</span><span class="chip">Philosophy</span>
+              <span class="chip">Infants</span><span class="chip">Toddlers</span><span class="chip">Kindergarten</span>
+              <span class="chip">Fees</span><span class="chip">Menus</span><span class="chip">News</span>
+              <span class="chip">Gallery</span><span class="chip">Contact</span>
+            </div>
+          </div>
+          <div>
+            <h3>After (this concept)</h3>
+            <div class="menu-fake" aria-label="Simplified menu">
+              <span class="chip on">About</span>
+              <span class="chip on">Rooms &amp; Programs</span>
+              <span class="chip on">Enrol</span>
+              <span class="chip on">Families</span>
+              <span class="chip on">Contact</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="wrap" id="rooms">
+    <h2>Rooms &amp; programs</h2>
+    <p class="sub">Three clear age groups with short descriptions. On a real client site these would use the centre's own wording and approved photos.</p>
+    <div class="cards">
+      <article class="card">
+        <div class="icon icon-n" aria-hidden="true">
+          <svg width="28" height="28" viewBox="0 0 28 28" fill="none"><circle cx="14" cy="14" r="10" stroke="#4F6B4C" stroke-width="2"/><circle cx="14" cy="14" r="4" fill="#7A9B76"/></svg>
+        </div>
+        <h3>Nurture</h3>
+        <p>Babies and young toddlers. Calm spaces, predictable routines and plenty of floor time.</p>
+      </article>
+      <article class="card">
+        <div class="icon icon-t" aria-hidden="true">
+          <svg width="28" height="28" viewBox="0 0 28 28" fill="none"><rect x="5" y="5" width="18" height="18" rx="4" stroke="#A35235" stroke-width="2"/><path d="M9 18l3-6 3 4 2-3 2 5" stroke="#C46B4A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </div>
+        <h3>Discover</h3>
+        <p>Toddlers and preschoolers. Play-based days with outdoor time, stories and small-group moments.</p>
+      </article>
+      <article class="card">
+        <div class="icon icon-p" aria-hidden="true">
+          <svg width="28" height="28" viewBox="0 0 28 28" fill="none"><path d="M6 20L14 6l8 14H6z" stroke="#A35235" stroke-width="2" stroke-linejoin="round"/><circle cx="14" cy="16" r="2" fill="#C46B4A"/></svg>
+        </div>
+        <h3>Prep</h3>
+        <p>Kindergarten-age children. Independence, friendships and a gentle lead-up to school rhythms.</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="sand-band" id="families">
+    <div class="wrap">
+      <h2>A typical day</h2>
+      <p class="sub">Example rhythm only — real centres set their own routines with families.</p>
+      <div class="timeline">
+        <div class="tl-item"><strong>7:30</strong><span>Arrive, settle and free play</span></div>
+        <div class="tl-item"><strong>9:00</strong><span>Morning tea and group time</span></div>
+        <div class="tl-item"><strong>10:00</strong><span>Outdoor play and projects</span></div>
+        <div class="tl-item"><strong>12:00</strong><span>Lunch and rest</span></div>
+        <div class="tl-item"><strong>2:30</strong><span>Afternoon activities</span></div>
+        <div class="tl-item"><strong>6:00</strong><span>Pick-up window closes</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="wrap" id="enrol">
+    <h2>Enrolment steps</h2>
+    <p class="sub">A short path families can follow. On a live Wix site each step can link to a form or downloadable pack the staff manage.</p>
+    <div class="steps">
+      <div class="step"><div class="n">1</div><h3>Enquire</h3><p>Send a short note or book a tour online.</p></div>
+      <div class="step"><div class="n">2</div><h3>Visit</h3><p>Walk through the rooms and meet educators.</p></div>
+      <div class="step"><div class="n">3</div><h3>Apply</h3><p>Complete the centre's enrolment pack.</p></div>
+      <div class="step"><div class="n">4</div><h3>Start</h3><p>Agree a start date and orientation visits.</p></div>
+    </div>
+  </section>
+
+  <section class="sand-band" id="contact">
+    <div class="wrap contact">
+      <div>
+        <h2>Contact</h2>
+        <p class="sub">Example details only — not a real centre.</p>
+        <div class="contact-card">
+          <dl>
+            <dt>Phone <span class="example">example</span></dt>
+            <dd>08 0000 0000</dd>
+            <dt>Email <span class="example">example</span></dt>
+            <dd>hello@example.invalid</dd>
+            <dt>Address <span class="example">example</span></dt>
+            <dd>12 Sample Street, Example Suburb WA 6000</dd>
+            <dt>Hours <span class="example">example</span></dt>
+            <dd>Monday to Friday, 7:30 am – 6:00 pm</dd>
+          </dl>
+          <p style="margin:18px 0 0"><a class="btn btn-secondary" href="#contact">Book a tour</a></p>
+        </div>
+      </div>
+      <div class="contact-card">
+        <h3 style="font-family:var(--serif);font-size:22px;margin:0 0 12px">Tour request</h3>
+        <form class="form" action="#" method="get" onsubmit="return false">
+          <label for="name">Your name</label>
+          <input id="name" name="name" autocomplete="name" placeholder="Full name">
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" autocomplete="email" placeholder="you@example.com">
+          <label for="msg">Message</label>
+          <textarea id="msg" name="msg" placeholder="Preferred days or questions"></textarea>
+          <p class="hint">Demo form only — nothing is sent. On a client Wix site this would use their form inbox.</p>
+          <button class="btn btn-primary" type="submit">Send enquiry</button>
+        </form>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <strong>Sample / concept work by ChaseDigital, fictional centre, not a real client.</strong>
+    <p>Shows the layout and style we'd apply in a Wix refresh. This page is static HTML for the portfolio — it was not built in Wix and is not a live centre website.</p>
+    <p><a href="../">← Back to ChaseDigital samples</a></p>
+  </div>
+</footer>
+<script>
+(function(){
+  var btn=document.getElementById('menuBtn');
+  var nav=document.getElementById('mainNav');
+  if(!btn||!nav)return;
+  btn.addEventListener('click',function(){
+    var open=nav.classList.toggle('open');
+    btn.setAttribute('aria-expanded',open?'true':'false');
+    btn.textContent=open?'Close':'Menu';
+  });
+  nav.querySelectorAll('a').forEach(function(a){
+    a.addEventListener('click',function(){
+      nav.classList.remove('open');
+      btn.setAttribute('aria-expanded','false');
+      btn.textContent='Menu';
+    });
+  });
+})();
+</script>
+</body>
+</html>
