@@ -60,8 +60,8 @@ Female voices in the picker, all from Alibaba's list: Jennifer, Vivian, Katerina
 Bella, Momo, Sonrisa, Elias, Bellona.
 Source: https://docs.modelstudio.console.alibabacloud.com/en/model-studio/qwen-tts-voice-list
 
-The earlier voice samples (A Brooklyn, B warm New York, C Long Island) are at `samples/voice-A.mp3`,
-`voice-B.mp3` and `voice-C.mp3`. They were made with the open-source Qwen3-TTS VoiceDesign model on
+The earlier voice samples (A Brooklyn, B warm New York, C Long Island) are on
+https://ccoop28.github.io/zhala/samples/ (playable on the iPhone). They were made with the open-source Qwen3-TTS VoiceDesign model on
 our own computer, and they are **not** the cloud voices the app uses. They show what a designed New York voice can sound like.
 
 ## Free quota and pricing (Singapore / international, checked 6 Nov 2026)
@@ -91,7 +91,9 @@ reached, she says so and doesn't guess numbers.
 
 ## Technical notes
 - Static site with no build step: `index.html`, `app.js`, `styles.css`, `manifest.json`, `sw.js`
-  (offline app shell), and icons.
+  (offline app shell), and `icon.svg`. The PNG Home Screen icon (`apple-touch-icon.png`, 180px) is built
+  but not yet uploaded, because the publishing tool only takes text files. Until it is uploaded, iPhone
+  uses a snapshot of the page as the Home Screen icon.
 - Brain: `POST https://dashscope-intl.aliyuncs.com/compatible-mode/v1/chat/completions`
   (OpenAI-compatible), with function calling for the tools and `enable_thinking: false`.
 - Voice: `POST https://dashscope-intl.aliyuncs.com/api/v1/services/aigc/multimodal-generation/generation`
